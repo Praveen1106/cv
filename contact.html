@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+</head>
+<body>
+    <h2>Contact details</h2>
+    <ul>
+        <li>email  :   random@gmail.com</li>
+        <li>phone  :   +0551-2501408</li>
+        <li>address:   random address</li>
+    </ul>
+    <hr>
+
+    <h3>Submit your details!</h3>
+
+    <form action="mailto:praveenbhatt.1106@gmail.com" method="POST" enctype="text/plain">
+        <label for=""><strong>Name:</strong></label> <br>
+        <input type="text" name="Your Name"> 
+        <br><br>
+        <label for=""><strong>Gender:</strong></label> <br>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="gender" value="Male">
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+        <label for="Other">Other</label>
+        <input type="radio" id="Other" name="gender" value="Other">
+        <br><br>
+        <label for=""><strong>Email:</strong></label><br>
+        <input type="email" name="Your Email"> <br><br>
+        <label for=""><strong>your message</strong></label><br>
+        <textarea name="Your Message" id="" cols="30" rows="10"></textarea> <br><br>
+        <label for=""><strong>interested in Service:</strong></label> <br>
+        <label for="">1</label>
+        <input type="range">
+        <label for="">5</label>
+        <br><br>
+        <input type="submit">
+        <input type="button" value="Reset">
+    </form>
+</body>
+</html>
